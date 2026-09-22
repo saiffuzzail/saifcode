@@ -9,3 +9,15 @@ int table;
     }
     return 0;
 }
+
+
+
+//code for find factorial
+ int n;
+int factorial=1;
+    printf("enter a non negetive value;");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        factorial=factorial*i;
+    }
+    printf(" factorial =%d",factorial);
